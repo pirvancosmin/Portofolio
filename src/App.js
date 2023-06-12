@@ -27,8 +27,7 @@ function App() {
       <Header />
       <section className="presentation">
         <div>
-          <h2 className="hello">Hi, I'm Cosmin <br />  Web developer <br /></h2> 
-          <img src='dev.png' className='devImg' />
+          <h2 className="hello">Hi, I'm Cosmin <br />  Web developer <br />  <img src='dev.png' className='devImg' alt='devimg' /> </h2>
         </div>
       </section>
       <article className="aboutMe" id="about">
