@@ -49,11 +49,7 @@ function App() {
                 <img src='calc.png' alt='calculator' className='projectImg' />
               </a>
             </div>
-            <div className='project'>
-              <a>
-                <img src='test1.png' alt='test1' className='projectImg' />
-              </a>
-            </div>
+           
           </div>
         </div>
       </article>
