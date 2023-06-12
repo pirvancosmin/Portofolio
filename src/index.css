@@ -149,7 +149,7 @@ article {
   color: aliceblue;
   display: flexbox;
   font-family: 'Courier New', Courier, monospace;
-  padding: 200px 0 100px 0;
+  padding: 150px 0 200px 0;
   flex-wrap: wrap;
 }
 
@@ -165,7 +165,7 @@ article {
     flex-wrap: wrap;
     font-size: 15px;
     flex-direction: column;
-    padding: 100px 0 150px 0;
+    padding: 10px 0 150px 0;
     margin: 5%;
   }
 }
@@ -185,7 +185,7 @@ article {
 }
 
 .projectSection {
-  padding: 20px 0 100px 0;
+  padding: 0 0 100px 0;
   align-items: center;
   text-align: center;
   
