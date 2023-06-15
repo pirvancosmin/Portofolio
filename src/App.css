@@ -48,6 +48,7 @@
   width: 130px;
   height: 30px;
   border-radius: 9px;
+  cursor: pointer;
 }
 
 .linkedin-button {
@@ -55,4 +56,5 @@
   width: 130px;
   height: 30px;
   border-radius: 9px;
+  cursor: pointer;
 }
