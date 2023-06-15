@@ -50,6 +50,11 @@ function App() {
               </a>
             </div>
             <div className='project'>
+              <a href='https://pcbinaryconverter.netlify.app/'>
+                <img src='bin.png' alt='converter' className='projectImg' />
+              </a>
+            </div>
+            <div className='project'>
               <div>
                 <img src='test1.png' alt='test1' className='projectImg' />
               </div>
