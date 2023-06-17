@@ -37,9 +37,9 @@ function App() {
             Since an early age I have always been curious and passionate about everything related to technology.
             <br /> I started to learn programming and gained valuable experience in languages such as <b>C++</b>, <b>Javascript</b>, <b>HTML</b>, and <b>CSS</b>.
             <br /> Now, I'm enthusiastic to find a role where I can continue learning and growing.
-            <br /> I'm a fast learner and have a strong desire to acquire new skills.
+            I'm a fast learner and have a strong desire to acquire new skills.
             <br /> I am determined to contribute to innovative projects and be part of a dynamic team that encourages creativity and continuous learning.
-             Ready to take on new challenges, I am motivated to push boundaries and embrace the ever-evolving nature of the industry.</p>
+            Ready to take on new challenges, I am motivated to push boundaries and embrace the ever-evolving nature of the industry.</p>
           <img className="img1" src="https://dezinsinteractive.com/wp-content/uploads/2018/12/icon-dev.png" alt="logo" width="250px" height="250px" />
         </div>
       </article>
