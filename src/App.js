@@ -33,9 +33,13 @@ function App() {
       <article className="aboutMe" id="about">
         <div className='h2title' onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}> <h2>{text}</h2></div>
         <div className="container">
-          <p className="textAM">Since an early age I have been always curious and passionate about everything related to technology.
-            <br /> I started to learn programming and <br /> I gained some experience in <b>C++</b>, <b>Javascript</b>, <b>HTML</b> and <b>CSS</b>.
-            Now, I'm eager to find a role where I can continue learning and growing. I'm a fast learner and have a strong desire to acquire new skills. </p>
+          <p className="textAM">
+            Since an early age I have always been curious and passionate about everything related to technology.
+            <br /> I started to learn programming and gained valuable experience in languages such as <b>C++</b>, <b>Javascript</b>, <b>HTML</b>, and <b>CSS</b>.
+            <br /> Now, I'm enthusiastic to find a role where I can continue learning and growing.
+            <br /> I'm a fast learner and have a strong desire to acquire new skills.
+            <br /> I am determined to contribute to innovative projects and be part of a dynamic team that encourages creativity and continuous learning.
+            <br /> Ready to take on new challenges, I am motivated to push boundaries and embrace the ever-evolving nature of the industry.</p>
           <img className="img1" src="https://dezinsinteractive.com/wp-content/uploads/2018/12/icon-dev.png" alt="logo" width="250px" height="250px" />
         </div>
       </article>
