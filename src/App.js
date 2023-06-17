@@ -55,9 +55,9 @@ function App() {
               </a>
             </div>
             <div className='project'>
-              <div>
-                <img src='test1.png' alt='test1' className='projectImg' />
-              </div>
+              <a href='https://pcweather.netlify.app/'>
+                <img src='weather.png' alt='weather' className='projectImg' />
+              </a>
             </div>
           </div>
         </div>
