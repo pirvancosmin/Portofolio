@@ -39,7 +39,7 @@ function App() {
             <br /> Now, I'm enthusiastic to find a role where I can continue learning and growing.
             <br /> I'm a fast learner and have a strong desire to acquire new skills.
             <br /> I am determined to contribute to innovative projects and be part of a dynamic team that encourages creativity and continuous learning.
-            <br /> Ready to take on new challenges, I am motivated to push boundaries and embrace the ever-evolving nature of the industry.</p>
+             Ready to take on new challenges, I am motivated to push boundaries and embrace the ever-evolving nature of the industry.</p>
           <img className="img1" src="https://dezinsinteractive.com/wp-content/uploads/2018/12/icon-dev.png" alt="logo" width="250px" height="250px" />
         </div>
       </article>
