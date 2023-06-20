@@ -51,16 +51,25 @@ function App() {
             <div className='project'>
               <a href='https://calculator-pirvan.netlify.app/'>
                 <img src='calc.png' alt='calculator' className='projectImg' />
+                <div className="overlay">
+                  <p>Calculator Project</p>
+                </div>
               </a>
             </div>
             <div className='project'>
               <a href='https://pcbinaryconverter.netlify.app/'>
                 <img src='bin.png' alt='converter' className='projectImg' />
+                <div className="overlay">
+                  <p>Binary Converter Project</p>
+                </div>
               </a>
             </div>
             <div className='project'>
               <a href='https://pcweather.netlify.app/'>
                 <img src='weather.png' alt='weather' className='projectImg' />
+                <div className="overlay">
+                  <p>Weather App Project</p>
+                </div>
               </a>
             </div>
           </div>
