@@ -46,7 +46,7 @@ function App() {
       <article>
         <div id="projectsH" className='projectSection'>
           <h2 className='h2title'>Projects</h2>
-          <p className='textP'>Here are few projects made by me (in progress)</p>
+          <p className='textP'>Here are a few projects I have worked on recently, with more exciting projects to come in the future.</p>
           <div className='projects'>
             <div className='project'>
               <a href='https://calculator-pirvan.netlify.app/'>
