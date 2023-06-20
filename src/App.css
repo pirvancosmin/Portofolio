@@ -39,3 +39,16 @@
   cursor: pointer;
   border: solid 1px;
 }
+.bottom {
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+  font-weight: bold;
+  font-size: larger;
+}
+@media screen and (max-width: 540px) {
+  .bottom {
+    font-size: smaller;
+  }
+}
