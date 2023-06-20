@@ -195,7 +195,11 @@ article {
   padding: 0 0 100px 0;
   align-items: center;
   text-align: center;
-  
+}
+@media screen and (max-width: 540px) {
+  .projectSection {
+    padding: 0;
+  }
 }
 
 .devImg {
@@ -207,6 +211,7 @@ article {
     width: 85%;
   }
 }
+
 
 .projectImg {
   width: 400px;
@@ -249,12 +254,14 @@ article {
   padding: 50px 15px;
   color: aliceblue;
   font-size: 20px;
+  padding-bottom: 10%;
 }
 
 @media screen and (max-width: 540px) {
   .contact {
     font-size: 15px;
     margin: 5%;
+    padding-bottom: 45%;
   }
 }
 
