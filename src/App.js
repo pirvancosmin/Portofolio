@@ -68,8 +68,8 @@ function App() {
       </article>
       <div className="contact" id="contact">
         <h2 className="h2title">CONTACT ME</h2>
-        <p><strong>EMAIL:</strong> pirvancosmin@outlook.com</p>
-        <p><strong>PHONE:</strong> +40 761 987 710</p>
+        <p className='pContact'><strong>EMAIL:</strong> pirvancosmin@outlook.com</p>
+        <p className='pContact'><strong>PHONE:</strong> +40 761 987 710</p>
         <div className='buttonStyle'>
           <button className='linkedin-button' onClick={() => window.open('https://ro.linkedin.com/in/pirvancosmin?trk=profile-badge')}>
             <FontAwesomeIcon icon={faLinkedin} /> LinkedIn

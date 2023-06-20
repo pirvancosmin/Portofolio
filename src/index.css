@@ -146,6 +146,11 @@ article {
   max-width: 700px;
   text-align: center;
 }
+@media screen and (max-width: 540px) {
+  .textAM {
+    font-size: 16px;
+  }
+}
 
 .aboutMe {
   color: aliceblue;
@@ -297,4 +302,13 @@ p {
 #changeWord {
   margin: 0 30%;
 }
-
+@media screen and (max-width: 540px) {
+  .pContact {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .textP {
+    font-size: 22px;
+  }
+}
