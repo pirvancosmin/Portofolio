@@ -19,7 +19,7 @@ header {
     display: inline-flex;
     flex-wrap: wrap;
   }
-  
+
   @media screen and (max-width: 540px) {
     a {
       font-size: 23px;
@@ -27,7 +27,7 @@ header {
   }
   
   .listitem {
-    margin: 0 5px 0 25px;
+    margin: 10px 5px 0 25px;
     font-size: 27px;
     list-style: none;
     font-family: 'Courier New', Courier, monospace;
@@ -35,6 +35,13 @@ header {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5),
       -2px -2px 4px rgba(255, 255, 255, 0.5);
   }
+
+  @media screen and (max-width: 540px) {
+    .listitem {
+        margin: 0 5px 0 25px;
+    }
+  }
+
   .bottom {
     color: white;
     display: flex;
