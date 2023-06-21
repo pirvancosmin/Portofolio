@@ -235,12 +235,6 @@ article {
   }
 }
 
-
-.buttonStyle :active {
-  width: 133px;
-  height: 33px;
-}
-
 .github-button {
   background-color: #bbbbbbe3;
   width: 130px;
@@ -248,6 +242,15 @@ article {
   border-radius: 9px;
   cursor: pointer;
   border: solid 1px;
+  margin-left: 5px;
+}
+.github-button:hover {
+  background-color: #555;
+  transition: background-color 0.1s ease;
+  transform: scale(1.1);
+}
+.github-button:active {
+  background-color: #272727;
 }
 
 .linkedin-button {
@@ -257,7 +260,19 @@ article {
   border-radius: 9px;
   cursor: pointer;
   border: solid 1px;
+  margin-right: 5px;
 }
+
+.linkedin-button:hover {
+  background-color: #2076b6;
+  transition: background-color 0.1s ease;
+  transform: scale(1.1);
+}
+
+.linkedin-button:active {
+  background-color: #003258;
+}
+
 .imgMail {
   filter: grayscale(50%);
 }
