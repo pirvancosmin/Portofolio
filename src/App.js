@@ -1,13 +1,11 @@
 import './App.css';
 import React from 'react';
 import { useState, useEffect } from 'react';
-import Header from './Header';
-import Bottom from './Bottom';
+import Header from './Components/Header';
+import Bottom from './Components/Bottom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
-
-
 
 
 function App() {
@@ -76,6 +74,7 @@ function App() {
         </div>
       </article>
       <div className="contact" id="contact">
+        <img className='imgMail' src='./mailsP.png' alt='imagMail'></img>
         <h2 className="h2title">CONTACT ME</h2>
         <p className='pContact'><strong>EMAIL:</strong> pirvancosmin@outlook.com</p>
         <p className='pContact'><strong>PHONE:</strong> +40 761 987 710</p>

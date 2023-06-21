@@ -1,21 +1,240 @@
-.App {
+.presentation {
+  display: flex;
+  justify-content: space-around;
+  font-size: 50px;
+  text-align: center;
+  background: linear-gradient(to bottom right, #6688CC, #CCCCCC);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+@media screen and (max-width: 540px) {
+  .presentation {
+    font-size: 30px;
+    width: 100%;
+  }
+}
+.hello {
+  margin: 15% 10%;
+  color: azure;
+  font-family: 'Courier New', Courier, monospace;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5),
+    -2px -2px 4px rgba(255, 255, 255, 0.5);
+}
+
+@media screen and (max-width: 540px) {
+  .hello {
+    margin: 55% 5%;
+    font-size: 45px;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .hello {
+    margin: 45% 5%;
+    font-size: 45px;
+  }
+}
+
+.devImg {
+  width: 60%;
+}
+
+@media screen and (max-width: 540px) {
+  .devImg {
+    width: 85%;
+  }
+}
+
+article {
+  display: flexbox;
+  padding: 100px 0 250px 0;
+  color: aliceblue;
+}
+
+.aboutMe {
+  color: aliceblue;
+  display: flexbox;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 50px 0 200px 0;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 540px) {
+  .aboutMe {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 15px;
+    flex-direction: column;
+    padding: 8px 0 150px 0;
+    margin: 5%;
+  }
+}
+
+.h2title {
+  font-size: 45px;
+  font-family: 'Courier New', Courier, monospace;
+  
   text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+@media screen and (min-width: 740px) {
+  .h2title {
+    margin: 0 37%;
+    padding: 3px;
+  }
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+@media screen and (max-width: 540px) {
+  .container {
+    display: flexbox;
+    flex-wrap: wrap;
+  }
+}
+
+.textAM {
+  font-size: 30px;
+  text-indent: 50px;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 15px;
+  max-width: 700px;
+  text-align: center;
+}
+@media screen and (max-width: 540px) {
+  .textAM {
+    font-size: 16px;
+  }
+}
+
+.img1 {
+  filter: contrast(1) brightness(1.5) grayscale(1);
+  animation: rotation 8s infinite linear;
+}
+
+.img1:hover {
+  filter: contrast(0.2) brightness(1.9) grayscale(0.9);
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.projectSection {
+  padding: 0 0 100px 0;
+  align-items: center;
+  text-align: center;
+}
+@media screen and (max-width: 540px) {
+  .projectSection {
+    padding: 0;
+  }
+}
+
+.textP {
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 15px;
+  margin: 0 15%;
+}
+@media screen and (max-width: 540px) {
+  .textP {
+    margin: 0;
+    font-size: 20px;
+  }
+}
+
+.projects {
+  display: flex;
+  justify-content:space-around;
+  flex-wrap: wrap;
+
+}
+
+.project {
+  position: relative;
+  display: inline-block;
+  padding: 3%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.3s;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.project:hover .overlay {
+  opacity: 1;
+}
+
+.project:hover .projectImg {
+  transform: scale(1.05);
+}
+
+.projectImg {
+  width: 400px;
+  height: 400px;
+  border-radius: 3%;
+  opacity: 0.8;
+  transition: transform 0.3s;
+  
+}
+.projectImg:hover {
+  opacity: 1;
+}
+
+@media screen and (max-width: 540px) {
+  .projectImg {
+    width: 200px;
+    height: 200px;
+
+  }
+}
+
+.contact {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 50px 15px;
+  color: aliceblue;
+  font-size: 20px;
+  padding-bottom: 10%;
 }
 
-.App-link {
-  color: #61dafb;
+@media screen and (max-width: 540px) {
+  .contact {
+    font-size: 15px;
+    margin: 5%;
+    padding-bottom: 45%;
+  }
 }
+
+@media screen and (max-width: 540px) {
+  .pContact {
+    font-size: 16px;
+  }
+}
+
 
 .buttonStyle :active {
   width: 133px;
@@ -39,16 +258,13 @@
   cursor: pointer;
   border: solid 1px;
 }
-.bottom {
-  color: white;
-  display: flex;
-  justify-content: center;
-  padding: 2%;
-  font-weight: bold;
-  font-size: larger;
+.imgMail {
+  filter: grayscale(50%);
 }
 @media screen and (max-width: 540px) {
-  .bottom {
-    font-size: smaller;
+  .imgMail {
+    height: 199px;
+    width: 313px;
   }
 }
+

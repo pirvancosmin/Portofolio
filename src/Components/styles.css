@@ -1,0 +1,47 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(0, 0, 0);
+    color: rgb(179, 179, 179);
+  }
+  
+  @media screen and (max-width: 540px) {
+    header {
+      justify-content: space-between;
+    }
+  }
+  
+  .list {
+    display: inline-flex;
+    flex-wrap: wrap;
+  }
+  
+  @media screen and (max-width: 540px) {
+    a {
+      font-size: 23px;
+    }
+  }
+  
+  .listitem {
+    margin: 0 5px 0 25px;
+    font-size: 27px;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5),
+      -2px -2px 4px rgba(255, 255, 255, 0.5);
+  }
+  .bottom {
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    font-weight: bold;
+    font-size: larger;
+  }
+  @media screen and (max-width: 540px) {
+    .bottom {
+      font-size: smaller;
+    }
+  }
+  
