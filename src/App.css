@@ -274,7 +274,10 @@ article {
 }
 
 .imgMail {
-  filter: grayscale(50%);
+  filter: grayscale(80%);
+}
+.imgMail:hover {
+  filter: grayscale(40%);
 }
 @media screen and (max-width: 540px) {
   .imgMail {
