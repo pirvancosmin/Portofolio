@@ -24,9 +24,7 @@ function App() {
     <>
       <Header />
       <section className="presentation">
-        <div>
-          <h2 className="hello">Hi, I'm Cosmin <br />  Web developer <br />  <img src='devbluepc.png' className='devImg' alt='devimg' /> </h2>
-        </div>
+          <h2 className="hello">Hi, I'm Cosmin <br />  Web developer <br />  <img src='programmer.png' className='devImg' alt='devimg' /> </h2>
       </section>
       <article className="aboutMe" id="about">
         <div className='h2title' onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}> <h2>{text}</h2></div>
@@ -74,7 +72,7 @@ function App() {
         </div>
       </article>
       <div className="contact" id="contact">
-        <img className='imgMail' src='./mailsP.png' alt='imagMail'></img>
+        <img className='imgMail' src='./mailImg1.png' alt='imagMail'></img>
         <h2 className="h2title">CONTACT ME</h2>
         <p className='pContact'><strong>EMAIL:</strong> pirvancosmin@outlook.com</p>
         <p className='pContact'><strong>PHONE:</strong> +40 761 987 710</p>

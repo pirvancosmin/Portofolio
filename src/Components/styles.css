@@ -1,5 +1,13 @@
 .welcome {
     text-align: center;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width:540px) {
+  .welcome {
+    text-transform: uppercase;
+    font-size: 25px; 
+  }
 }
 
 header {
@@ -18,6 +26,7 @@ header {
   .list {
     display: inline-flex;
     flex-wrap: wrap;
+    
   }
 
   @media screen and (max-width: 540px) {

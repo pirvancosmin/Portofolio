@@ -5,6 +5,7 @@
   text-align: center;
   background: linear-gradient(to bottom right, #6688CC, #CCCCCC);
   background-repeat: no-repeat;
+  max-height: 880px;
   background-attachment: fixed;
   background-size: cover;
 }
@@ -12,10 +13,11 @@
   .presentation {
     font-size: 30px;
     width: 100%;
+    height: 750px;
   }
 }
 .hello {
-  margin: 15% 10%;
+  margin: 10% 10%;
   color: azure;
   font-family: 'Courier New', Courier, monospace;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5),
@@ -37,7 +39,8 @@
 }
 
 .devImg {
-  width: 60%;
+  max-width: 600px;
+  max-height: 500px;
 }
 
 @media screen and (max-width: 540px) {
@@ -65,15 +68,13 @@ article {
     flex-wrap: wrap;
     font-size: 15px;
     flex-direction: column;
-    padding: 8px 0 150px 0;
-    margin: 5%;
+    padding: 1px 0 150px 0;
   }
 }
 
 .h2title {
   font-size: 45px;
   font-family: 'Courier New', Courier, monospace;
-  
   text-align: center;
 }
 
@@ -149,7 +150,7 @@ article {
 @media screen and (max-width: 540px) {
   .textP {
     margin: 0;
-    font-size: 20px;
+    font-size: 15px;
   }
 }
 
@@ -273,12 +274,6 @@ article {
   background-color: #003258;
 }
 
-.imgMail {
-  filter: grayscale(80%);
-}
-.imgMail:hover {
-  filter: grayscale(40%);
-}
 @media screen and (max-width: 540px) {
   .imgMail {
     height: 199px;
