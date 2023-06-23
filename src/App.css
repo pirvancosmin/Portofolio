@@ -280,4 +280,7 @@ article {
     width: 313px;
   }
 }
-
+.bMod:hover {
+  color:#4c83f8;
+  cursor: crosshair;
+}
