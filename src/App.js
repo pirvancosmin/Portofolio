@@ -6,6 +6,8 @@ import Bottom from './Components/Bottom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faJs, faCss3Alt, faHtml5, faReact } from '@fortawesome/free-brands-svg-icons';
+import { faDatabase} from '@fortawesome/free-solid-svg-icons';
 
 
 function App() {
@@ -30,14 +32,21 @@ function App() {
         <div className='h2title' onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}> <h2>{text}</h2></div>
         <div className="container">
           <p className="textAM">
-            Since an early age I have always been curious and passionate about everything related to technology.
-            <br /> I started to learn programming and gained valuable experience in languages such as <b className='bMod'>C++</b>, <b className='bMod'>Javascript</b>, <b className='bMod'>HTML</b>, and <b className='bMod'>CSS</b>.
-            <br /> Now, I'm enthusiastic to find a role where I can continue learning and growing.
-            I'm a fast learner and have a strong desire to acquire new skills.
-            <br /> I am determined to contribute to innovative projects and be part of a dynamic team that encourages creativity and continuous learning.
-            Ready to take on new challenges, I am motivated to push boundaries and embrace the ever-evolving nature of the industry.</p>
+          Since an early age, I have always been curious and passionate about everything related to technology. 
+          <br />I started to learn programming and gained valuable experience in various aspects of web development.
+          <br />Now, I'm enthusiastic to find a role where I can continue learning and growing. I'm a fast learner and have a strong desire to acquire new skills.
+          <br />I am determined to contribute to innovative web development projects and be part of a dynamic team that encourages creativity and continuous learning. 
+           I am motivated to push boundaries and embrace the ever-evolving nature of the industry.</p>
           <img className="img1" src="icon-dev.png" alt="logo" width="250px" height="250px" />
         </div>
+        <h2 className='skills-title'>My Skills</h2>
+      <div className='skills-icons'>
+        <FontAwesomeIcon className='js' icon={faJs} />
+        <FontAwesomeIcon className='css' icon={faCss3Alt} />
+        <FontAwesomeIcon className='html' icon={faHtml5} /> 
+        <FontAwesomeIcon className='react' icon={faReact} />
+        <FontAwesomeIcon className='database' icon={faDatabase} />
+      </div>
       </article>
       <article>
         <div id="projectsH" className='projectSection'>

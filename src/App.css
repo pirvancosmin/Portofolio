@@ -8,12 +8,11 @@
   max-height: 850px;
   background-attachment: fixed;
   background-size: cover;
+  width: 100%;
 }
 @media screen and (max-width: 540px) {
   .presentation {
     font-size: 40px;
-    width: 100%;
-
   }
 }
 @media screen and (max-width: 1540px) {
@@ -22,6 +21,13 @@
     max-height: 650px;
   }
 }
+
+@media screen and (max-width: 821px) and (min-width: 537px) {
+  .presentation {
+    padding-bottom: 28%;
+  }
+}
+
 .hello {
   margin: 10% 10%;
   color: azure;
@@ -66,6 +72,12 @@ article {
   color: aliceblue;
 }
 
+@media screen and (max-width: 540px) {
+  article {
+    padding: 100px 0 150px 0;
+  }
+}
+
 .aboutMe {
   color: aliceblue;
   display: flexbox;
@@ -79,7 +91,7 @@ article {
     flex-wrap: wrap;
     font-size: 15px;
     flex-direction: column;
-    padding: 1px 0 150px 0;
+    padding: 1px 0 50px 0;
   }
 }
 
@@ -305,7 +317,78 @@ article {
     width: 313px;
   }
 }
-.bMod:hover {
-  color:#4c83f8;
-  cursor: crosshair;
+
+.skills-title {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 35px;
+  color: azure;
 }
+
+@media screen and (max-width: 540px) {
+  .skills-title {
+    font-size: 25px;
+  }
+}
+
+.skills-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 65px;
+  opacity: 85%;
+}
+
+@media screen and (max-width: 540px) {
+  .skills-icons {
+    font-size: 55px;
+  }
+}
+
+.database {
+  color: cadetblue;
+  margin: 0 2%;
+  transition: transform 0.2s;
+}
+.database:hover {
+  transform: scale(1.2);
+  opacity: 75%;
+}
+.css {
+  color: #01599c;
+  margin: 0 2%;
+  transition: transform 0.2s
+}
+.css:hover {
+  transform: scale(1.2);
+  opacity: 75%;
+}
+.js {
+  color: rgb(255, 208, 0);
+  margin: 0 2%;
+  transition: transform 0.2s
+}
+.js:hover {
+  transform: scale(1.2);
+  opacity: 75%;
+}
+.html {
+  color: rgb(235, 106, 0);
+  margin: 0 2%;
+  transition: transform 0.2s
+}
+.html:hover {
+  transform: scale(1.2);
+  opacity: 75%;
+}
+.react {
+  color: aqua;
+  margin: 0 2%;
+  transition: transform 0.2s
+}
+.react:hover {
+  transform: scale(1.2);
+  opacity: 75%;
+}
+
